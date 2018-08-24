@@ -1,15 +1,62 @@
 <!doctype html>
 <html>
   <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <title>Google Spoof</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="style.css" rel="stylesheet" type="text/css" >
   </head>
   <body>
-    <header>
-      <ul>
-        <li><a href="https://mail.google.com/mail/?tab=wm">Gmail</a></li>
-        <li><a href="https://www.google.pl/imghp?hl=en&tab=wi">Images</a></li>
-      </ul>
-    </header>
+    <div class="container">
+      <nav>
+        <div class="navbar">
+          <ul>
+            <li><a href="https://mail.google.com/mail/?tab=wm">Gmail</a></li>
+            <li><a href="https://www.google.pl/imghp?hl=pl&tab=wi">Grafika</a></li>
+            <li><a href="#"><i class="material-icons">apps</i></a></li>
+            <li><a href="#"><i class="material-icons">add_alert</i></a></li>
+            <span class="user user-circle"></span>
+          </ul>
+        </div>
+      </nav>
+      <div id="main">
+        <div class="logo">
+          <img src="./logo.png" alt="Google">
+        </div>
+        <div class="mb-5">
+          <input id="input" type="text">
+        </div>
+        <div class="btn-sct mb-5 align">
+          <button class="btn" href="#">Szukaj w Google</button>
+          <button class="btn" href="#">Szczęśliwy traf</button>
+        </div>
+        <div class="translate align center">
+          <p>Korzystaj z Google w tych językach: <a href="#">English</a></p>
+        </div>
+      </div>
+      <footer>
+        <div class="notch">
+          <p>Polska</p>
+        </div>
+        <div class="notch">
+          <div class="left col-6">
+            <p>
+              <a href="https://www.google.com/intl/pl_pl/ads/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpafooter&fg=1">Reklamuj się</a>
+              <a href="https://www.google.com/services/?subid=ww-ww-et-g-awa-a-g_hpbfoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpbfooter&fg=1">Dla firm</a>
+              <a href="https://www.google.com/intl/pl_pl/about/?utm_source=google.com&utm_medium=referral&utm_campaign=hp-footer&fg=1">O nas</a>
+            </p>
+          </div>
+          <div class="right col-6">
+            <p>
+              <a href="https://www.google.com/intl/pl_pl/policies/privacy/?fg=1">Prywatność</a>
+              <a href="https://www.google.com/intl/pl_pl/policies/terms/?fg=1">Warunki</a>
+              <a href="https://www.google.com/preferences?hl=pl">Ustawienia</a>
+            </p>
+          </div>
+        </div>
+      </footer>
+    </div>
   </body>
 </html>

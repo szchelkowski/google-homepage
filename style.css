@@ -46,7 +46,7 @@ li a:hover {
 }
 
 .user {
-  background-image: url(./avatar-photo-32x32.png)
+  background-image: url(https://lh3.googleusercontent.com/-h7Qpihn6boc/AAAAAAAAAAI/AAAAAAAAAAA/APUIFaPmD3zWvXmQmoGcos5dsEuJQYgH7A/s32-c-mo/photo.jpg)
 }
 
 .user-circle {
@@ -54,7 +54,7 @@ li a:hover {
   border-radius: 50%;
   -moz-border-radius: 50%;
   display: block;
-  margin: -1px;
+  margin: 0 15px 0 5px;
   overflow: hidden;
   position: relative;
   height: 32px;
